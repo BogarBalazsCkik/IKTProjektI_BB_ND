@@ -32,5 +32,6 @@ print("d) feladat:")
 tD=[2, 1, 2, 3, 5, 7, 6, 6, 4, 3]
 atlag=sum(lista)/len(lista)
 negyzetkul=0
-for i in range(lista):
-    negyzetkul+=(i-atlag)*2
+for i in (lista):
+    negyzetkul+=(i-atlag)**2
+print("Szórása:",f"{math.sqrt(negyzetkul/(len(lista)-1)):.3f}")
