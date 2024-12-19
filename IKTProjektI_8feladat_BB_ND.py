@@ -23,3 +23,6 @@ for i in range(len(lista)-1):
         poz1=i+1
         poz2=i+2
 print(poz1,"és",poz2,"nap között volt a legnagyobb hőingadozás:",kulonbseg)
+
+print("c) feladat:")
+print("A terjedelme",max(lista)-min(lista),"volt.")
