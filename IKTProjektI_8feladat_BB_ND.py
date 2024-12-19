@@ -25,4 +25,12 @@ for i in range(len(lista)-1):
 print(poz1,"és",poz2,"nap között volt a legnagyobb hőingadozás:",kulonbseg)
 
 print("c) feladat:")
+tC=[2, 1, 2, 3, 5, 7, 6, 6, 4, 3]
 print("A terjedelme",max(lista)-min(lista),"volt.")
+
+print("d) feladat:")
+tD=[2, 1, 2, 3, 5, 7, 6, 6, 4, 3]
+atlag=sum(lista)/len(lista)
+negyzetkul=0
+for i in range(lista):
+    negyzetkul+=(i-atlag)*2
