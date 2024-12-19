@@ -19,7 +19,7 @@ poz1=0
 poz2=0
 for i in range(len(lista)-1):
     if((lista[i+1]-lista[i]>=kulonbseg)):
-        kulondseg=abs(lista[i+1]-lista[i])
+        kulonbseg=abs(lista[i+1]-lista[i])
         poz1=i+1
         poz2=i+2
-print(poz1,"és",poz2,". nap között volt a legnagyobb hőingadozás:",kulonbseg,".")
+print(poz1,"és",poz2,"nap között volt a legnagyobb hőingadozás:",kulonbseg)
