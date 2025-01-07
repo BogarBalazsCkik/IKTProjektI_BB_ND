@@ -8,7 +8,7 @@ print("a) feladat:")
 tA=[2, 1, 2, 3, 5, 7, 6, 6, 4, 3]
 otneltobb=0
 for i in (tA):
-    if(i<5):
+    if(i<6):
         otneltobb+=1
 print(otneltobb,"napon mértünk maximum 5 fokot")
 
